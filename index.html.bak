@@ -1,0 +1,451 @@
+<!doctype html>
+<!--
+COPYRIGHT by HighHay/Mivfx
+Before using this theme, you should accept themeforest licenses terms.
+http://themeforest.net/licenses
+-->
+
+<html class="no-js" lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+
+        <!-- Page Title Here -->
+        <title>Bientot - Landing page Coming Soon responsive template</title>
+		
+        <!-- Page Description Here -->
+		<meta name="description" content="A responsive coming soon template, un template HTML pour une page en cours de construction">
+
+        <!-- Disable screen scaling-->
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+        <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+        
+        <!-- Initializer -->
+        <link rel="stylesheet" href="./css/normalize.css">        
+        
+        <!-- Web fonts and Web Icons -->
+        <link rel="stylesheet" href="./css/pageloader.css">
+        <link rel="stylesheet" href="./fonts/opensans/stylesheet.css">
+        <link rel="stylesheet" href="./fonts/asap/stylesheet.css">
+        <link rel="stylesheet" href="./css/ionicons.min.css">
+        
+        <!-- Vendor CSS style -->
+        <link rel="stylesheet" href="./css/foundation.min.css">
+        <link rel="stylesheet" href="./js/vendor/jquery.fullPage.css">
+        <link rel="stylesheet" href="./js/vegas/vegas.min.css">
+        
+		<!-- Main CSS files -->
+        <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/main_responsive.css">
+        <link rel="stylesheet" href="./css/style-font1.css">
+        
+        <script src="./js/vendor/modernizr-2.7.1.min.js"></script>
+    </head>
+    <body id="menu" class="alt-bg"  style="font-family:微软雅黑">
+        <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <!-- Page Loader -->
+        <div class="page-loader" id="page-loader">
+            <div><i class="ion ion-loading-d"></i><p>loading</p></div>
+        </div>
+        
+        <!-- BEGIN OF site header Menu -->
+		<!-- Add "material" class for a material design style -->
+		<header class="header-top">
+<!--		
+		</header>
+        <!-- END OF site header Menu-->
+        
+        <!-- BEGIN OF Quick nav icons at left -->
+		<nav class="quick-link count-6 nav-left">
+			<ul id="qmenu">
+				<li data-menuanchor="home">
+					<a href="#home" class=""><i class="icon ion ion-home"></i>
+					</a>
+					<span class="title">主页</span>
+				</li>
+				<li data-menuanchor="when">
+					<a href="#when" class=""><i class="icon ion ion-android-alarm"></i>
+					</a>
+					<span class="title">时间</span>
+				</li>
+				<li data-menuanchor="register">
+					<a href="#register"><i class="icon ion ion-compose"></i>
+					</a>
+					<span class="title">我们的特点</span>
+				</li>
+				<li data-menuanchor="about-us">
+					<a href="#about-us"><i class="icon ion ion-android-information"></i>
+					</a>
+					<span class="title">关于我们</span>
+				</li>
+				<li data-menuanchor="contact">
+					<a href="#contact"><i class="icon ion ion-android-call"></i>
+					</a>
+					<span class="title">联系我们</span>
+				</li>
+				<li data-menuanchor="contact">
+					<a href="#contact/message"><i class="icon ion ion-email"></i>
+					</a>
+					<span class="title">写信给我们</span>
+				</li>
+			</ul>
+		</nav>
+        <!-- END OF Quick nav icons at left -->
+        
+
+
+        <!-- BEGIN OF site cover -->
+        <div class="page-cover" id="home">
+            <!-- Cover Background -->
+            <div class="cover-bg pos-abs full-size bg-img" data-image-src="img/hhh.jpg"></div>
+			
+            <!-- BEGIN OF Slideshow Background -->
+            <!--<div class="cover-bg pos-abs full-size slide-show">
+				<i class='img' data-src='./img/bg-slide1.jpg'></i>
+				<i class='img' data-src='./img/bg-slide2.jpg'></i>
+				<i class='img' data-src='./img/bg-slide3.jpg'></i>
+				<i class='img' data-src='./img/bg-slide4.jpg'></i>
+			</div>-->
+            <!-- END OF Slideshow Background -->
+            
+            <!--BEGIN OF Static video bg  - uncomment below to use Video as Background-->
+            <!--<div id="container" class="video-container show-for-medium-up">
+                <video autoplay="autoplay" loop="loop" autobuffer="autobuffer" muted="muted"
+                       width="640" height="360">
+                    <source src="vid/flower_loop.mp4" type="video/mp4">
+                </video>
+            </div>-->
+            <!--END OF Static video bg-->
+			
+			<!-- Solid color as background -->
+<!--            <div class="cover-bg pos-abs full-size bg-color" data-bgcolor="rgba(51, 2, 48, 0.12)"></div>-->
+			
+			<!-- Solid color as filter -->
+<!--            <div class="cover-bg-mask pos-abs full-size bg-color" data-bgcolor="rgba(62, 24, 219, 0.41)"></div>-->
+            
+        </div>
+        <!--END OF site Cover -->
+        
+        <!-- BEGIN OF site main content content here -->
+        <main class="page-main" id="mainpage">             
+            
+			<!-- Begin of home page -->
+			<div class="section page-home page page-cent" id="s-home">
+				
+				<!-- Logo -->
+				<div class="logo-container">
+					<img class="h-logo" src="img/logo_only.png" alt="Logo">
+				</div>
+				<!-- Content -->
+				<section class="content">
+					
+					<header class="header">
+						<div class="h-left">
+							<h2>欢迎来到 <strong>在线钟祥</strong></h2>
+						</div>
+						<div class="h-right">
+							<h3>想要了解 <br>更多</h3>
+							<h4 class="subhead"><a href="#when">往下看</a></h4>
+						</div>
+					</header>
+				</section>
+				
+                
+
+
+				<!-- Scroll down button -->
+                <footer class="p-footer p-scrolldown">
+                    <a href="#when">
+                        <div class="arrow-d">
+							<div class="before">点&nbsp;我</div>
+							<div class="after">试&nbsp;试</div>
+							<div class="circle"></div>
+						</div>
+                    </a>                        
+                </footer>
+			</div>
+			<!-- End of home page -->
+            
+            <!-- Begin of timer page -->
+            <div class="section page-when page page-cent" id="s-when">
+                <section class="content">
+                    <div class="clock clock-countdown">
+						<div class="site-config"
+							 data-date="10/31/2019 23:00:00" 
+							 data-date-timezone="+0"
+							 ></div>
+						<header class="header">
+							Coming <strong>soon</strong>
+						</header>
+                        <div class="elem-left">
+                            <div class="digit hours">00</div>
+                            <div class="text">hrs</div>
+                        </div>						
+                        <div class="elem-center">
+							<!-- Optional text at top or image logo -->
+							<!--<span class="text top">here in</span>-->
+							<!-- Optional logo at top -->
+							<span class="text top"><img class="img" alt="Logo" src="img/logo_large.png"></span>
+                            <div class="digit days">000</div>
+                            <div class="text">days</div>
+                        </div>
+                        <div class=" elem-right">
+                            <div class="digit minutes">00</div>
+                            <div class="text">min</div>
+                        </div>
+						
+						<!-- second knob here -->
+						<div class="second">
+							<input class="knob container" 
+								   id="second-knob"
+								  	data-width="400"
+								  	data-height="400"
+								 data-displayInput=false
+									data-fgColor="#fff"
+									data-bgColor="rgba(255,255,255,0)"
+									data-thickness=".07"
+								 	value="0"
+									data-displayPrevious=true
+								   data-max="6000"
+								   />
+						</div>
+                    </div>                   
+                    
+                </section>                
+                <footer class="p-footer p-scrolldown">
+                    <a href="#register">
+                        <div class="arrow-d">
+							<div class="before">点&nbsp;击</div>
+							<div class="after">试&nbsp;试</div>
+							<div class="circle"></div>
+						</div>
+                    </a>                        
+                </footer>
+            </div>
+            <!-- End of timer page -->
+            
+            <!-- Begin of register page -->
+            <div class="section page-register page page-cent"  id="s-register">
+                <section class="content">
+                    <header class="p-title">
+                        <h3>我们的优势 : <i class="ion ion-compose"></i></h3> 
+                    </header>
+                      <div>
+                            <p class="invite center"></p>
+                            <p >
+							<br><Strong><span style="color:red">中国地方社区网站最具商业潜力奖:<span></strong>
+							<br>目前拥有16余万忠实的注册用户，还有海量的游客访问群体，据国内权威的第三方统计数据显示，在线钟祥的日均访问量过5万余人次，为湖北省地级市社区类网站第五名。荣获“钟祥网络舆情单位—先进单位”,"钟祥市农产品商会——会员单位"。本网多次被搜狐、新浪、腾讯、中国共青团网等媒体报道。
+							<br><strong><span style="color:red">细分的主题社区，丰富的内容，商机无限:<span></strong>
+							在线钟祥栏目设置多采多样，各类资讯及时丰富，准确细分目标群体，为广告客户达到广告效果提供了保障。同时，在线钟祥以其超强的人气优势为背景，基于网友的需求而开发了丰富的频道，包括本地资讯、生活服务、婚嫁亲子、汽车房产、家居装修等20多个版块，不同的领域不同的话题为在线钟祥带来了包罗万象的信息，同时也为商家品牌的覆盖与提升提供一个宽广的媒体平台。
+							<br><strong><span style="color:red">传播范围最广:<span></strong> 
+							网络广告的传播它不受时间和空间的限制，它通过国际互联网络把广告信息24小时不间断地传播到世界各地。只要具备上网条件，任何人，在任何地点都可以阅读。这是传统媒体无法达到的。
+							<br><strong><span style="color:red">交互性强:<span></strong>
+							交互性是互联网络媒体的最大的优势 ，它不同于传统媒体的信息单向传播，而是信息互动传播，用户可以获取他们认为有用得信息，厂商也可以随时得到宝贵的用户反馈信息。
+							<br><strong><span style="color:red">针对性强:<span></strong>
+							根据分析结果显示，网络广告受众是最年轻、最具活力、受教育程度最高、购买力最强的群体，网络广告可以帮您直接命中最有可能的潜在用户。
+							<br><strong><span style="color:red">最具诱惑力的广告宣传形式:<span></strong>
+							与传统媒体相比，网络广告具有不受版面、时段限制，宣传时间长，收费便宜等特点，广告客户还可以利用网上调查、论坛短消息群发等新颖的广告形式，只需投入传统媒体几十分之一的广告费用，就能24小时不间断地，向消费者展示比传统媒体上多出几十倍内容的宣传资料。视频、文字、图片、联办活动等多种形式供您选择。 </p>
+                        
+                    </div>
+                </section>
+                <footer class="p-footer p-scrolldown">
+                    <a href="#about-us">
+                        <div class="arrow-d">
+							<div class="before">About</div>
+							<div class="after">US</div>
+							<div class="circle"></div>
+						</div>
+                    </a>                        
+                </footer>
+            </div>
+            <!-- End of register page -->
+            
+            <!-- Begin of about us page -->
+            <div class="section page-about page page-cent" id="s-about-us">
+                <section class="content">
+                    <header class="p-title">
+                        <h3>关于我们<i class="ion ion-android-information">
+                            </i>
+                        </h3>
+						<h2 >我 <span class="bold">们</span> 创 <span class="bold">造</span> 美</h2>
+                    </header>
+                    <article class="text">
+                       
+                        <p>在线钟祥网(www.zhongxiang.com)，成立于2013年08月，是钟祥地区最具影响力的网络服务品牌，为106万钟祥人提供生活信息、民生讨论、日常消费指导等实用服务，以促进城市信息交流，提高社会效率为己任。在线钟祥网锁定的用户群体以18-45岁社会高知主流人群，这个群体的特征是高消费、高学历、高感度（指信息的整合能力和对新事物的接受能力强）。他们不仅是众多产品和服务所瞄准的目标消费群体，还是诸多新产品、新服务的早期消费者，在消费的传播链条中具有相当的影响力。这个群体好比消费和媒体使用的风向标，他们所表现出来的消费或媒体使用特征往往预示着大众即将跟进的潮流。 </p>
+                    </article>
+                </section>
+                <footer class="p-footer p-scrolldown">
+                    <a href="#contact">
+                        <div class="arrow-d">
+							<div class="before">Contact</div>
+							<div class="after">Message</div>
+							<div class="circle"></div>
+						</div>
+                    </a>                        
+                </footer>
+            </div>
+            <!-- End of about us page -->
+                
+            <!-- Begin of Contact page   -->
+            <div class="section page-contact page page-cent  bg-color" data-bgcolor="rgba(95, 25, 208, 0.88)s" id="s-contact">
+				<!-- Begin of contact information -->
+				<div class="slide" id="information" data-anchor="information">
+					<section class="content">
+						<header class="p-title">
+							<h3>联系我们<i class="ion ion-location">
+								</i>
+							</h3>
+						</header>
+						<!-- Begin Of Page SubSction -->
+						<div class="contact">
+							<div class="row">
+								<div class="medium-6 columns left">
+									<ul>
+										<li>
+											<h4>房产热线</h4>
+											<p> <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2909361&site=qq&menu=yes"><img src="img/houseTel.png"></a></p>
+											  
+										</li>
+										<li>
+											<h4>汽车热线</h4>
+											<p><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=494488731&site=qq&menu=yes"><img src="img/carTel.png"></a>
+											</p>
+										</li>
+										<li>
+											<h4>家居热线</h4>
+											<p><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2909361&site=qq&menu=yes"><img src="img/jiajuRexian.png"></p>
+										</li>
+										<li>
+											<h4>综合热线</h4>
+											<p><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2909360&site=qq&menu=yes"><img src="img/zongheTel.png"></p>
+										</li>
+									</ul>
+								</div>
+								<div class="medium-6 columns left">
+									<ul>
+
+										<!-- legal notice -->
+										<li class="show-for-medium-up">
+											<h4>二手热线</h4>
+											<p><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1544895223&site=qq&menu=yes"><img src="img/erShouReXian.png"></p>
+										</li>
+										<li  class="show-for-medium-up">
+											<h4>婚嫁热线</h4>
+											<!-- Begin of Social links -->
+											<p><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=494488731&site=qq&menu=yes"><img src="img/hunjiaReXian.png"></p>
+											<!-- End of Social links -->
+										</li>
+										<li>
+											<h4>招聘热线</h4>
+											<p><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1544895223&site=qq&menu=yes"><img src="img/zhaopinReXian.png"></p>
+										</li>
+										<li>
+											<h4>APP业务和微信热线</h4>
+											<p><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2909361&site=qq&menu=yes"><img src="img/reXian.png"></p>
+										</li>
+									</ul>
+
+								</div>
+							</div>
+						</div>
+						<!-- End of page SubSection -->
+					</section>  
+				</div>
+				<!-- end of contact information -->
+				
+				<!-- begin of contact message --> 
+				<div class="slide" id="message" data-anchor="message">
+					<section class="content">
+						<header class="p-title">
+							<h3>写信给我们<i class="ion ion-email">
+								</i>
+							</h3>
+							
+						</header>
+						<!-- Begin Of Page SubSction -->
+						
+						<div class="page-block c-right v-zoomIn">
+							<div class="wrapper">
+								<div>
+									<form class="message form send_message_form" method="get" action="ajaxserver/serverfile.php">
+										<div class="fields clearfix">
+											<div class="input">
+												<label for="mes-name">姓名 </label>
+												<input id="mes-name" name="name" type="text" placeholder="Your Name" required></div>
+											<div class="buttons">
+												<button id="submit-message" class="button email_b" name="submit_message">Ok</button>
+											</div>
+										</div>
+										<div class="fields clearfix">
+											<div class="input">
+												<label for="mes-email">邮箱 </label>
+												<input id="mes-email" type="email" placeholder="Email Address" name="email" required>
+											</div>
+										</div>
+										<div class="fields clearfix no-border">
+											<label for="mes-text">信息 </label>
+											<textarea id="mes-text" placeholder="信息内容在这里描述。" name="message" required></textarea>
+
+											<div>
+												<p class="message-ok invisible">您的信息已经发送，谢谢！</p>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+						<!-- End Of Page SubSction -->
+					</section>
+						
+				</div>
+				<!-- End of contact message -->
+            </div>
+            <!-- End of Contact page  -->   
+        
+        </main>
+
+        <!-- END OF site main content content here -->  
+		
+
+        
+<!--        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>-->
+        
+        <!-- All Javascript plugins goes here -->
+<!--		<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>-->
+        <script src="./js/vendor/jquery-1.11.2.min.js"></script>
+		<!-- All vendor scripts -->
+        <script src="./js/vendor/all.js"></script>
+		
+		<!-- Detailed vendor scripts -->
+        <!--<script src="./js/vendor/jquery.fullPage.min.js"></script>
+        <script src="./js/vendor/jquery.slimscroll.min.js"></script>
+        <script src="./js/vendor/jquery.knob.min.js"></script>
+        <script src="./js/vegas/vegas.min.js"></script>
+        <script src="./js/jquery.maximage.js"></script>
+        <script src="./js/okvideo.min.js"></script>-->
+		
+		<!-- Downcount JS -->
+        <script src="./js/jquery.downCount.js"></script>
+		
+		<!-- Form script -->
+        <script src="./js/form_script.js"></script>
+        
+		<!-- Javascript main files -->
+        <script src="./js/main.js"></script>
+         
+
+        <!-- Google Analytics: Uncomment and change UA-XXXXX-X to be your site"s ID. -->
+        <!--<script>
+            (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+            function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+            e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+            e.src="//www.google-analytics.com/analytics.js";
+            r.parentNode.insertBefore(e,r)}(window,document,"script","ga"));
+            ga("create","UA-XXXXX-X");ga("send","pageview");
+        </script>-->
+    </body>
+</html>
