@@ -67,11 +67,7 @@ http://themeforest.net/licenses
 					</a>
 					<span class="title">主页</span>
 				</li>
-				<li data-menuanchor="when">
-					<a href="#when" class=""><i class="icon ion ion-android-alarm"></i>
-					</a>
-					<span class="title">时间</span>
-				</li>
+				
 				<li data-menuanchor="register">
 					<a href="#register"><i class="icon ion ion-compose"></i>
 					</a>
@@ -171,9 +167,9 @@ http://themeforest.net/licenses
 			<!-- End of home page -->
             
             <!-- Begin of timer page -->
-            <div class="section page-when page page-cent" id="s-when">
+            <div class="section page-when page page-cent" id="s-when" style="display: none;">
                 <section class="content">
-                    <div class="clock clock-countdown">
+                    <div class="clock clock-countdown">  
 						<div class="site-config"
 							 data-date="10/31/2019 23:00:00" 
 							 data-date-timezone="+0"
@@ -317,7 +313,7 @@ http://themeforest.net/licenses
 										</li>
 										<li>
 											<h4>家居热线</h4>
-											<p><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2909361&site=qq&menu=yes"><img src="img/jiajuRexian.png"></p>
+											<p><a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2909361&site=qq&menu=yes"><img src="img/jiajuReXian.png"></p>
 										</li>
 										<li>
 											<h4>综合热线</h4>
